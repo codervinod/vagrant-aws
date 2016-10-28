@@ -34,7 +34,7 @@ shown below.
 ```
 $ vagrant plugin install vagrant-aws
 ...
-$ vagrant up --provider=aws
+$ vagrant up --provider=nutanix
 ...
 ```
 
@@ -49,7 +49,7 @@ manually within a `config.vm.provider` block. So first, add the dummy
 box using any name you want:
 
 ```
-$ vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
+$ vagrant box add nutanix https://github.com/codervinod/vagrant-nutanix/raw/master/nutanix.box
 ...
 ```
 

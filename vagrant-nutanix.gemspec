@@ -2,18 +2,18 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require "vagrant-aws/version"
 
 Gem::Specification.new do |s|
-  s.name          = "vagrant-aws"
+  s.name          = "vagrant-nutanix"
   s.version       = VagrantPlugins::AWS::VERSION
   s.platform      = Gem::Platform::RUBY
   s.license       = "MIT"
-  s.authors       = "Mitchell Hashimoto"
-  s.email         = "mitchell@hashicorp.com"
-  s.homepage      = "http://www.vagrantup.com"
-  s.summary       = "Enables Vagrant to manage machines in EC2 and VPC."
-  s.description   = "Enables Vagrant to manage machines in EC2 and VPC."
+  s.authors       = "Vinod Gupta"
+  s.email         = "codervinod@gmail.com"
+  s.homepage      = "http://www.nutanix.com"
+  s.summary       = "Enables Vagrant to manage machines in Nutanix."
+  s.description   = "Enables Vagrant to manage machines in Nutanix."
 
   s.required_rubygems_version = ">= 1.3.6"
-  s.rubyforge_project         = "vagrant-aws"
+  s.rubyforge_project         = "vagrant-nutanix"
 
   s.add_runtime_dependency "fog", "~> 1.22"
   s.add_runtime_dependency "iniparse", "~> 1.4", ">= 1.4.2"
